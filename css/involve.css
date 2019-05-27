@@ -1,0 +1,381 @@
+.ctaHome {
+	max-width: 1100px;
+	margin: 120px auto 80px;
+	font-size: 0;
+}
+
+@media only screen and (max-width: 760px) {
+	.ctaHome {
+		margin: 60px auto;
+	}
+}
+
+.ctaHome .oneCta {
+	display: inline-block;
+	width: 50%;
+	padding: 0 60px;
+	box-sizing: border-box;
+	vertical-align: top;
+}
+
+.ctaHome .oneCta h2 {
+	font-size: 14px;
+	font-family: 'JohnstonMdITCTT', sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 1460px) {
+	.ctaHome .oneCta h2 {
+		font-size: 13px;
+	}
+}
+
+.ctaHome .oneCta h1 {
+	font-size: 48px;
+	line-height: 50px;
+	font-family: 'JohnstonITCTTLight', sans-serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 7px;
+	margin-bottom: 12px;
+}
+
+.ctaHome .oneCta h1 strong {
+	display: block;
+	font-family: 'JohnstonMdITCTT', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 1460px) {
+	.ctaHome .oneCta h1 {
+		font-size: 32px;
+		line-height: 40px;
+		letter-spacing: 5px;
+	}
+}
+
+@media only screen and (max-width: 760px) {
+	.ctaHome .oneCta h1 {
+		font-size: 26px;
+		line-height: 36px;
+		letter-spacing: 2px;
+	}
+}
+
+.ctaHome .oneCta p {
+	margin-bottom: 23px;
+	display: block;
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 1460px) {
+	.ctaHome .oneCta p {
+		font-size: 18px;
+	}
+}
+
+@media only screen and (max-width: 760px) {
+	.ctaHome .oneCta p {
+		font-size: 16px;
+	}
+}
+
+.ctaHome .oneCta > a {
+	font-size: 12px;
+	line-height: 1;
+	font-family: 'JohnstonMdITCTT', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	padding: 14px 20px 12px;
+	display: inline-block;
+	outline: none;
+	border: 1px solid #000;
+	background: #000;
+	color: #fff;
+	-webkit-transition: background 0.3s ease, color 0.3s ease;
+	-moz-transition: background 0.3s ease, color 0.3s ease;
+	-ms-transition: background 0.3s ease, color 0.3s ease;
+	-o-transition: background 0.3s ease, color 0.3s ease;
+	transition: background 0.3s ease, color 0.3s ease;
+}
+
+.ctaHome .oneCta > a:hover {
+	background: #fff;
+	color: #000;
+}
+
+@media only screen and (max-width: 760px) {
+	.ctaHome .oneCta > a {
+		padding-bottom: 10px;
+	}
+}
+
+@media only screen and (max-width: 760px) {
+	.ctaHome .oneCta {
+		width: 100%;
+		padding: 0 20px;
+	}
+	.ctaHome .oneCta:nth-of-type(1) {
+		padding-bottom: 60px;
+	}
+}
+
+.ctaHome .oneCta > a {
+	font-size: 15px;
+	padding: 14px 0px 11px;
+	background: transparent;
+	color: #000;
+	border: none;
+	border-bottom: 1px solid;
+}
+
+@media only screen and (max-width: 760px) {
+	.ctaHome .oneCta > a {
+		font-size: 13px;
+		padding-bottom: 6px;
+	}
+}
+
+.ctaHome .oneCta > a:hover {
+	background: transparent;
+}
+
+.ctaHome .oneCta .socialLinks {
+	margin-top: 30px;
+}
+
+.ctaHome .oneCta .socialLinks .socialLink {
+	display: inline-block;
+	margin: 0 10px;
+	background: none;
+	border: none;
+	padding: 0;
+}
+
+.ctaHome .oneCta .socialLinks .socialLink:nth-of-type(1) {
+	margin-left: 0;
+}
+
+.ctaHome .oneCta .socialLinks .socialLink img {
+	width: 35px;
+}
+
+.ctaHome .oneCta form {
+	width: 100%;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.ctaHome .oneCta form a {
+	text-decoration: underline;
+}
+
+.ctaHome .oneCta form input[type=text] {
+	background: none;
+	font-size: 20px;
+	padding: 10px 2px;
+	border: none;
+	width: 100%;
+	box-sizing: border-box;
+	border-bottom: 1px solid;
+	margin-bottom: 25px;
+	outline: none;
+	-webkit-appearance: none;
+	border-radius: 0;
+}
+
+@media only screen and (max-width: 760px) {
+	.ctaHome .oneCta form input[type=text] {
+		font-size: 16px;
+		padding-bottom: 6px;
+	}
+}
+
+.ctaHome .oneCta form button {
+	display: block !important;
+	margin-top: 20px;
+	font-family: 'JohnstonMdITCTT', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	display: inline-block;
+	outline: none;
+	font-size: 15px;
+	line-height: 1;
+	padding: 15px 30px 11px;
+	min-width: 165px;
+	box-sizing: border-box;
+	background: transparent;
+	color: #000;
+	border: 1px solid #000;
+	cursor: pointer;
+	-webkit-transition: background 0.3s ease, color 0.3s ease;
+	-moz-transition: background 0.3s ease, color 0.3s ease;
+	-ms-transition: background 0.3s ease, color 0.3s ease;
+	-o-transition: background 0.3s ease, color 0.3s ease;
+	transition: background 0.3s ease, color 0.3s ease;
+}
+
+@media only screen and (max-width: 760px) {
+	.ctaHome .oneCta form button {
+		font-size: 14px;
+		padding: 14px 30px 9px;
+		letter-spacing: 1.4px;
+	}
+}
+
+.ctaHome .oneCta form button:hover {
+	background: #000;
+	color: #fff;
+}
+
+.ctaHome .oneCta form .signupResponse {
+	z-index: -1;
+	opacity: 0;
+	font-size: 16px;
+	margin-top: 30px;
+	-webkit-transition: opacity 0.6s ease;
+	-moz-transition: opacity 0.6s ease;
+	-ms-transition: opacity 0.6s ease;
+	-o-transition: opacity 0.6s ease;
+	transition: opacity 0.6s ease;
+}
+
+.ctaHome .oneCta form .signupResponse.fadeIn {
+	z-index: 1000;
+	opacity: 1;
+}
+
+.footerNew {
+	padding: 0 20px 50px;
+	max-width: 1100px;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 0;
+	box-sizing: border-box;
+}
+
+@media only screen and (max-width: 760px) {
+	.footerNew {
+		padding-bottom: 30px;
+	}
+}
+
+.footerNew .col_1-3 {
+	display: inline-block;
+	width: 33.33%;
+	padding: 30px 0px;
+	box-sizing: border-box;
+	vertical-align: middle;
+	font-family: 'JohnstonMdITCTT', sans-serif;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1px;
+	color: #B2B2B2;
+}
+
+@media only screen and (max-width: 760px) {
+	.footerNew .col_1-3 {
+		font-size: 11px;
+		width: 100%;
+		text-align: center !important;
+	}
+}
+
+.footerNew .col_1-3.left {
+	text-align: left;
+}
+
+.footerNew .col_1-3.middle {
+	text-align: center;
+}
+
+@media only screen and (max-width: 760px) {
+	.footerNew .col_1-3.middle {
+		padding: 0;
+	}
+}
+
+.footerNew .col_1-3.middle p {
+	margin-top: 15px;
+	font-size: 10px;
+}
+
+.footerNew .col_1-3.middle img {
+	width: 100%;
+	max-width: 300px;
+}
+
+.footerNew .col_1-3.right {
+	text-align: right;
+}
+
+@media only screen and (max-width: 760px) {
+	.footerNew .col_1-3.right {
+		padding-bottom: 0;
+	}
+}
+
+.chapterTop .chapterImage {
+	width: 75%;
+	max-width: 1600px;
+	text-align: center;
+	margin: 18vh auto 0;
+}
+
+@media only screen and (max-width: 760px) {
+	.chapterTop .chapterImage {
+		width: 100%;
+		margin-top: 23vh;
+	}
+}
+
+.chapterTop .chapterImage img {
+	width: 100%;
+}
+
+.chapterTop h1 {
+	text-align: center;
+	font-family: 'JohnstonMdITCTT', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 13px;
+	margin-top: 20px;
+	display: none;
+}
+
+
+.signupPopup .socialLinks {
+	margin-top: 30px;
+}
+
+.signupPopup .socialLinks .socialLink {
+	display: inline-block;
+	margin: 0 10px;
+	background: none;
+	border: none;
+	padding: 0;
+}
+
+.signupPopup .socialLinks .socialLink:nth-of-type(1) {
+	margin-left: 0;
+}
+
+@media only screen and (max-width: 760px) {
+	.signupPopup .socialLinks .socialLink {
+		margin: 0 5px;
+	}
+}
+
+.signupPopup .socialLinks .socialLink img {
+	width: 35px;
+}
+
+@media only screen and (max-width: 760px) {
+	.signupPopup .socialLinks .socialLink img {
+		width: 28px;
+	}
+}

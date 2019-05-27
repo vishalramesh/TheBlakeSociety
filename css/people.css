@@ -1,0 +1,110 @@
+.montage .inner .text h1 {
+	font-size: 40px;
+	line-height: 50px;
+	font-family: 'JohnstonITCTTLight', sans-serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 4px;
+	margin-bottom: 12px;
+	will-change: left;
+	position: relative;
+	left: 20px;
+	color: #000;
+	-webkit-transition: left 0.5s ease-out, color 0.4s ease-in;
+	-moz-transition: left 0.5s ease-out, color 0.4s ease-in;
+	-ms-transition: left 0.5s ease-out, color 0.4s ease-in;
+	-o-transition: left 0.5s ease-out, color 0.4s ease-in;
+	transition: left 0.5s ease-out, color 0.4s ease-in;
+}
+
+@media only screen and (max-width: 1260px) {
+	.screen.bottom .montage .inner .text h1 {
+		font-size: 32px;
+		line-height: 40px;
+		letter-spacing: 3px;
+	}
+}
+
+@media only screen and (max-width: 760px) {
+	.screen.bottom .montage.text h1 {
+		font-size: 26px;
+		line-height: 32px;
+		letter-spacing: 2px;
+	}
+}
+
+.screen.bottom .montage .text h1 strong {
+	display: block;
+	letter-spacing: 5px;
+	font-family: 'JohnstonMdITCTT', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 1260px) {
+	.screen.bottom .montage .text h1 strong {
+		letter-spacing: 3px;
+	}
+}
+
+.inner {
+    margin: auto;
+    height: 300px;
+}
+.image_person {
+    padding-left: 20%;
+    float: left;
+}
+
+.text {
+    float: right;
+    padding-right: 20%;
+}
+
+.button {
+	text-align: center;
+	margin: 60px auto 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .button {
+		margin: 40px auto 80px;
+	}
+}
+
+.button a {
+	font-family: 'JohnstonMdITCTT', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	display: inline-block;
+	outline: none;
+	font-size: 15px;
+	line-height: 1;
+	padding: 15px 30px 11px;
+	min-width: 165px;
+	box-sizing: border-box;
+	background: transparent;
+	color: #000;
+	border: 1px solid #000;
+	cursor: pointer;
+	-webkit-transition: background 0.3s ease, color 0.3s ease;
+	-moz-transition: background 0.3s ease, color 0.3s ease;
+	-ms-transition: background 0.3s ease, color 0.3s ease;
+	-o-transition: background 0.3s ease, color 0.3s ease;
+	transition: background 0.3s ease, color 0.3s ease;
+}
+
+@media only screen and (max-width: 760px) {
+	.button a {
+		font-size: 14px;
+		padding: 14px 30px 9px;
+		letter-spacing: 1.4px;
+	}
+}
+
+.button a:hover {
+	background: #000;
+	color: #fff;
+}
+
